@@ -6,8 +6,6 @@ lislength:
 =#
 ### Du skal implementere denne funksjonen ###
 
- #For [5,3,3,6,7] blir mls (maximum length sequence) til slutt [1,1,1,2,3]
-
 function lislength(s)
     mls = zeros(Int, size(s))
     mls[1] = 1
